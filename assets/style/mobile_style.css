@@ -1,0 +1,52 @@
+body
+{
+    background-color: var(--OffBlack);
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor
+{
+    background-color: var(--DarkGrey);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width: 320px;
+    height: 540px;
+    border-radius: 10px;  
+    align-content:flex-start;
+}
+.texto
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin: 0px 10px 0px 10px;
+    border: solid red;
+}
+.botones
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+img
+{
+    border-radius: 50%;
+    height: 80px;
+
+}
+:root
+{
+        --White: hsl(0, 0%, 100%);
+        --Grey: hsl(0, 0%, 20%);
+        --DarkGrey: hsl(0, 0%, 12%);
+        --OffBlack: hsl(0, 0%, 8%);
+        --Green: hsl(75, 94%, 57%);
+}
