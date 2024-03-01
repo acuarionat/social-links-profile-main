@@ -7,6 +7,8 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Inter", sans-serif;
+
 }
 .contenedor
 {
@@ -16,9 +18,10 @@ body
     justify-content:center;
     align-items:center;
     width: 320px;
-    height: 540px;
+    height: 560px;
     border-radius: 10px;  
     align-content:flex-start;
+    justify-content:space-between;
 }
 .texto
 {
@@ -27,20 +30,55 @@ body
     justify-content:center;
     align-items:center;
     margin: 0px 10px 0px 10px;
-    border: solid red;
+    width: 90%;
+    height: 40%;
+    padding: 15px 0px 13px 0px;
 }
 .botones
 {
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 60%;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
 }
 img
 {
     border-radius: 50%;
     height: 80px;
-
+    margin:40px 0px 20px 0px;
+}
+button
+{
+    background-color: var(--Grey);
+    border: none;
+    width: 85%;
+    border-radius: 7px;
+    color: var(--White);  
+    padding: 13px 0px 13px 0px;
+    font-weight: 700;
+}
+h2
+{
+    font-weight: 600;
+    color: var(--White);
+    line-height: 0px;
+}
+h3
+{
+    
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--Green);
+    line-height: 0px;
+}
+p
+{
+    font-size: 14px;
+    color: var(--White);
+    line-height: 40px;
 }
 :root
 {
