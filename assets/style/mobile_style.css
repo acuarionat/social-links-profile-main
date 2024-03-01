@@ -88,3 +88,8 @@ p
         --OffBlack: hsl(0, 0%, 8%);
         --Green: hsl(75, 94%, 57%);
 }
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    cursor: pointer;
+}
